@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1215.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JP2.sesstion1.Assignment1.Listcontroller">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="851.0" prefWidth="1214.0">
+         <children>
+            <Text layoutX="550.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thư Viện">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font></Text>
+            <TableView fx:id="tbqls" layoutX="39.0" layoutY="131.0" prefHeight="263.0" prefWidth="740.0">
+              <columns>
+                <TableColumn fx:id="MS" prefWidth="123.0" text="MaSach" />
+                <TableColumn fx:id="TS" prefWidth="338.0" text="TenSach" />
+                  <TableColumn fx:id="LS" prefWidth="276.0" text="LoaiSach" />
+              </columns>
+            </TableView>
+            <TableView fx:id="tbqltv" layoutX="146.0" layoutY="482.0" prefHeight="258.0" prefWidth="926.0">
+               <columns>
+                  <TableColumn fx:id="MTV" prefWidth="123.0" text="MaTV" />
+                  <TableColumn fx:id="TTV" prefWidth="544.0" text="TenTV" />
+                  <TableColumn fx:id="GioiTinh" prefWidth="134.0" text="GioiTinh" />
+                  <TableColumn fx:id="Tuoi" prefWidth="124.0" text="Tuoi" />
+               </columns>
+            </TableView>
+            <TableView fx:id="tbqlms" layoutX="865.0" layoutY="131.0" prefHeight="203.0" prefWidth="315.0">
+               <columns>
+                  <TableColumn fx:id="MSach" prefWidth="99.0" text="MaSach" />
+                  <TableColumn fx:id="MaTV" prefWidth="125.0" text="MaTV" />
+                  <TableColumn fx:id="SL" prefWidth="88.0" text="SoLuong" />
+               </columns>
+            </TableView>
+            <Text layoutX="312.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quan Ly Sach">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="539.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quan Ly Thanh Vien">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="961.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quan Ly Muon Sach">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
